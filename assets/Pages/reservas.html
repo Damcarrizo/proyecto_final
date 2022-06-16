@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rebelion/Reservas</title>
+  <link rel="stylesheet" href="../estilos/style.css">
+  <link rel="shortcut icon" href="../Img/favicon-32x32.png" type="image/png">
+</head>
+<body>
+<header> <a href= "../../index.html" > <img src= "../img/logo_rebelion.jpg" alt="Logo Rebelion" width="100" height="100" class="logo-img rounded" > </a>
+<nav>
+    <ul>
+      <li class="menu__item"><a class="menu__link">Menu</a>
+      <ul class="submenu">
+        <li class="submenu__item" ><a class="submenu__link" href="./menudia.html">DIA</a></li>
+        <li class="submenu__item"><a class="submenu__link" href="./menunoche.html">NOCHE</a></li>
+      </ul>
+    </li>
+      <li><a href="./reservas.html">Reservas</a></li>
+      <li><a href="./eventos.html">Eventos</a></li>
+      <li><a href="./contacto.html">Contacto</a></li>
+      <li><a href="./huerta.html">Huerta</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+    <h1>Hace tu Reserva :</h1>
+    <section>
+        <article >
+            <div class="reserva__letra">
+            <form action="graciasreserva.html" method="post">
+                <label for="fecha">Fecha:<br>
+            <input type="date" id="fecha" name="dia de reserva" value="2022-05-1" min="2022-05-01" max="2022-12-31"><br>
+            </label><br>
+            <label for="Comensales">Comensales<br>
+                <input type="number" id="comensales" name="comensales" min="1" max="10">
+            </label><br> <br>
+            <label for="telefono">Telefono:<br>
+            <input type="tel" id="tel" name="telefono " placeholder="11000000"><br>
+        </label><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+        </div>
+        </article>
+    </section>
+</main>
+<footer><a href="https://www.instagram.com/rebelion_ba/"> <img src="../img/instagram.png" alt="Link_Instagram" width="40" height="40" class="logo__instagram"> </a>Copyright 2022</footer>
+</body>
+</html>
