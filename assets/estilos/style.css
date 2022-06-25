@@ -13,7 +13,8 @@ nav ul li {display: inline-block;
         font-weight: bold;
         border-radius: 20px; 
     }
-a {text-decoration: none;}
+a {text-decoration: none;
+color: black;}
 nav ul li:hover {
     background: #fff;
 }
@@ -23,9 +24,10 @@ position: absolute;}
 
 .menu__item:hover .submenu{display: block;}
 
-body{background: #ebb92e;
-    padding: 3rem;
+body{ background-image: linear-gradient(to left, #2F4858,#D8A00A);
+        padding: 3rem;
     text-align: center;
+
  
 }
 main h1 { color: #ffff;
