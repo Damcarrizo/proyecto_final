@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rebelion/Huerta</title>
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <script src= "../bootstrap/js/jquery.slim.min.js"></script>
+  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="../estilos/style.css">
   <link rel="shortcut icon" href="../Img/favicon-32x32.png" type="image/png">
+  <title>Rebelion/Huerta</title>
 </head>
 <body>
 <header> <a href= "../../index.html" > <img src= "../img/logo_rebelion.jpg" alt="Logo Rebelion" width="100" height="100" class="logo-img rounded"> </a>
@@ -27,10 +30,35 @@
 </header>
 <main> 
     <h1> Veni a conocer nuestra huerta</h1>
-    <div><img src="../img/huerta1.jpg" alt="imagen huerta" width="500" height="500"> 
-        <img src="../img/huerta2.jpg" alt="imagen huerta" width="500" height="500"><br>
-        <img src="../img/huerta3.jpg" alt="imagen huerta" width="500" height="500">
-        <img src="../img/huerta4.jpg" alt="imagen huerta" width="500" height="500">
+    <div id="carouselWithIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="2"></li>
+        <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../Img/huerta1.jpg" class="d-block w-100" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="../Img/huerta2.jpg" class="d-block w-100" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+          <img src="../Img/huerta3.jpg" class="d-block w-100" alt="Slide 3">
+        </div>
+        <div class="carousel-item">
+          <img src="../Img/huerta4.jpg" class="d-block w-100"alt="slide 4">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselWithIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselWithIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
     </div>
     
   </main>
