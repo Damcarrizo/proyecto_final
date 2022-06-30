@@ -4,15 +4,22 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+/* logo  */
+.rounded {padding: 1rem;   
+}
+.logo__nav{border-radius: 80%;
+    width: 10vw;
+    height: 10vw;}
 
-.rounded {border-radius: 50px;
-margin-left: 1.4%;}
 
 .imagen__portada__div{
     padding: 3rem
 }
 
 .foto__portada {border-radius: 60px;
+    width: 50vw;
+    height: 50vw;
+    
 }
 
 header{
@@ -20,46 +27,30 @@ header{
     flex-direction: column;
     align-items: center;
 }
-/* Barra de navegacion*/
+
+/* Barra Navegacion */
 .nav {display: flex;
     flex-direction: row;
     justify-content: right;
     align-items: center;
 }
 
-nav ul li {display: inline-block;
-    background: #1D333F;
-    color: #B8C7C7;
+.navbar-nav {
+    background: #1D333F;;
     padding: 1rem ;
         font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 20px;
         font-weight: bold;
-        border-radius: 20px; 
+        border-radius: 50px; 
     }
 
-nav ul li:hover {
-    background: #fff;
-}
+    .navbar-nav:hover {
+        background: #fff;
+    }
+.navbar-expand-xl{
+    background-color:transparent!important ;
 
-.submenu {display: none;
-position: absolute;}
-
-.menu__item:hover .submenu{display: block;}
-
-
-/* animaciones carta */
-.menu__ambos {
-    width: 23vw;
-    height: 43vw;
-    border-radius: 2rem;
-    transition: width 2s, height 2s;
-
-}
-.menu__ambos:hover {
-    width: 30vw;
-    height: 50vw;
-}
-
+} 
 body{ 
     background: #C5AC00;
         padding: 3rem;
@@ -72,28 +63,51 @@ main h1 { color: #FFFFFF;
         font-size: 50px;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
  
-    .hora__index { color: #fff;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.hora__index { color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+
+    animation: backInLeft;
+    animation-duration: 2s;
+    animation-delay: 1s;
  }
 
-.contacto { font-size: 30px;}
-#nombre {font-size: 20px;}
-#email {font-size: 20px;}
+ .menu__ambos {
+    width: 23vw;
+    height: 43vw;
+    border-radius: 2rem;
+    transition: width 2s, height 2s;
+    padding: 1rem ;
+}
+
+.menu__ambos:hover {
+    width: 30vw;
+    height: 50vw;
+}
+
+
+/* formulario contacto */
+
+.mb-3{
+    padding: 1rem;
+    font-size: 30px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+}
+
+
 .reserva__letra {font-size: 30px;}
 #fecha { font-size: 20px;}
 #comensales{font-size: 20px;}
 #tel { font-size: 20px;}
 
-.direccion {margin-top: 1rem;
+.direccion__index {margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
     
-
-}
-
-footer {padding: 2rem;
-    display: flex;
-flex-direction: column;
-align-content:center;
-justify-content: end;
 }
 
 .logo__instagram {width: fit-content;
@@ -104,4 +118,14 @@ justify-content: end;
    text-align: center;
    margin: 0 auto;
     border-radius: 50px;
+    width: 30vw;
+    height: 30vw;
+
+}
+
+footer {padding: 1rem;
+    display: flex;
+flex-direction: column;
+align-content:center;
+justify-content: end;
 }

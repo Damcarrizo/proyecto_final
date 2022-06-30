@@ -8,35 +8,59 @@
   <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
   <script src= "./assets/bootstrap/js/jquery.slim.min.js"></script>
   <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <link rel="shortcut icon" href="./assets/Img/favicon.png" type="image/png">
+  <script src="./assets/bootstrap/js/wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+  <link rel="stylesheet" href="./assets/bootstrap/css/animate.css">
+  <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/png">
   <link rel="stylesheet" href="./assets/estilos/style.css">
   <title>Rebelion</title>
 </head>
 <body>
-<header> <a href= "./index.html" > <img src= "./assets/Img/logo_rebelion.jpg" alt="Logo Rebelion" width="100" height="100" class="rounded"> </a>
-<nav class="nav">
-  <ul>
-    <li class="menu__item"><a class="menu__link">Menu</a>
-    <ul class="submenu">
-      <li class="submenu__item" ><a class="submenu__link" href="./assets/Pages/menudia.html">DIA</a></li>
-      <li class="submenu__item"><a class="submenu__link" href="./assets/Pages/menunoche.html">NOCHE</a></li>
-    </ul>
-  </li>
-    <li><a href="./assets/Pages/reservas.html">Reservas</a></li>
-    <li><a href="./assets/Pages/eventos.html">Eventos</a></li>
-    <li><a href="./assets/Pages/contacto.html">Contacto</a></li>
-    <li><a href="./assets/Pages/huerta.html">Huerta</a></li>
-  </ul>
-</nav>
+<header> 
+  <div class="rounded"> 
+    <a href= "./index.html" > 
+      <img src= "./assets/img/logo_rebelion.jpg" alt="Logo Rebelion" width="100" height="100" class="logo__nav">
+     </a> 
+    </div>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a><ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./assets/pages/menudia.html">Dia</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/menunoche.html">Noche</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./assets/pages/reservas.html">Reservas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./assets/pages/eventos.html">Eventos</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="./assets/pages/huerta.html">Huerta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./assets/pages/contacto.html">Contacto</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 </header>
 <main> 
   <div class="imagen__portada__div">
-    <img src="./assets/Img/portada.jpg" alt="foto portada" width="600" height="600" class="foto__portada">
+    <img src="./assets/img/portada.jpg" alt="foto portada" width="600" height="600" class="foto__portada">
   </div>
   <h2 class="hora__index"> Abierto todos los dias de 10 a 01 hs </h2>
-  <h3 class="direccion"> <a href= "https://www.google.com/maps/place/Rebeli%C3%B3n/@-34.5882023,-58.4272227,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb5e92b712fb3:0x6e0782597e94b379!8m2!3d-34.5882023!4d-58.4272227" target="_blank">Gurruchaga 1795, C1414 CABA </class=a></h3>
+  <h3 class="direccion__index"> <a href= "https://www.google.com/maps/place/Rebeli%C3%B3n/@-34.5882023,-58.4272227,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb5e92b712fb3:0x6e0782597e94b379!8m2!3d-34.5882023!4d-58.4272227" target="_blank">Gurruchaga 1795, C1414 CABA</a></h3>
     
 </main>
-  <footer><a href="https://www.instagram.com/rebelion_ba/" class="logo__instagram"> <img src="assets/Img/instagram.png" alt="Link_Instagram" width="40" height="40"> </a><p>Copyright 2022</p></footer>
+  <footer><a href="https://www.instagram.com/rebelion_ba/" class="logo__instagram"> <img src="assets/img/instagram.png" alt="Link_Instagram" width="40" height="40"> </a><p>Copyright 2022</p></footer>
 </body>
 </html>
