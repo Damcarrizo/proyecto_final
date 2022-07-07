@@ -1,0 +1,10 @@
+body{
+    background: $primary-background;
+    padding: $medium;
+    text-align: center;
+}
+
+main h1 { color: $text-color;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px $secondary-background;
+    font-size: 60px;
+    font-family:$fuente-secundaria;}

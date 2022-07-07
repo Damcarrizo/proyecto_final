@@ -1,0 +1,24 @@
+body{
+
+.hora__index { color:$text-color;
+    font-family:$fuente-secundaria;
+    font-weight: 700;
+
+    animation: backInLeft;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.imagen__portada{
+    padding: $medium;
+    align-items: center;
+    border-radius: 70px;
+    width: 50vw;
+    height: 50vw;
+}
+
+.direccion__index {margin-top: $xsmall;
+    font-family: $fuente-secundaria ;
+    font-weight: 700;   
+}
+}
