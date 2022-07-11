@@ -4,29 +4,6 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-/* logo  */
-.logo {padding: 1rem;   
-}
-.logo__nav{border-radius: 80%;
-    width: 10vw;
-    height: 10vw;}
-
-
-.imagen__portada{
-    padding: 3rem;
-    align-items: center;
-    border-radius: 70px;
-    width: 50vw;
-    height: 50vw;
-    
-}
-
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 /* Barra Navegacion */
 .nav {display: flex;
     flex-direction: row;
@@ -50,26 +27,6 @@ header{
     background-color:transparent!important ;
 
 } 
-body{ 
-    background: #C5AC00;
-        padding: 3rem;
-    text-align: center;
-
- 
-}
-main h1 { color: #FFFFFF;
-        text-shadow: 1px 3px 0 #969696, 1px 13px 5px #1D333F;
-        font-size: 50px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
- 
-.hora__index { color: #fff;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 700;
-
-    animation: backInLeft;
-    animation-duration: 2s;
-    animation-delay: 1s;
- }
 
  .menu__ambos {
     width: 23vw;
@@ -84,47 +41,11 @@ main h1 { color: #FFFFFF;
     height: 50vw;
 }
 
-
-/* formulario contacto */
-
-.mb-3{
-    padding: 1rem;
-    font-size: 30px;
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    margin: auto;
-}
-
-
 .reserva__letra {font-size: 30px;}
 #fecha { font-size: 20px;}
 #comensales{font-size: 20px;}
 #tel { font-size: 20px;}
 
-.direccion__index {margin-top: 1rem;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    
-}
-
 .logo__instagram {width: fit-content;
     align-self: center;
-}
-
-.carousel-inner{
-   text-align: center;
-   margin: 0 auto;
-    border-radius: 50px;
-    width: 30vw;
-    height: 30vw;
-
-}
-
-footer {padding: 1rem;
-    display: flex;
-flex-direction: column;
-align-content:center;
-justify-content: end;
 }

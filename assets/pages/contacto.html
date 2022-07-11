@@ -12,13 +12,14 @@
               new WOW().init();
               </script>
   <link rel="stylesheet" href="../bootstrap/css/animate.css">
-  <link rel="stylesheet" href="../estilos/style.css">
+  <link rel="stylesheet" href="../estilos/main.css">
   <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@700&family=Oswald:wght@500&display=swap" rel="stylesheet">
   <title>Rebelion/ Contacto</title>
 </head>
 <body>
 <header>
-   <div class="rounded">
+   <div class="logo">
      <a href= "../../index.html" > <img src= "../img/logo_rebelion.jpg" alt="Logo Rebelion" width="100" height="100" class="logo__nav">
      </a>
      </div>
@@ -57,18 +58,13 @@
         <article class="contacto">
             <form action="./gracias.html" method="post">
               <div class="mb-3">
-                <label for="Nombreyapellido" class="form-label">Nombre y Apellido</label>
-                <input type="text" class="form-control" id="Nombreyapellido" placeholder="Nombre completo">
+                <label for="email" class="form-label">Direccion Email</label>
+                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
               </div>
-            <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="aaa@ggg.com">
-            <div id="emailHelp" class="form-text">No compartiremos el mail con nadie mas.</div>
-          </div>
-          <div class="mb-3">
-            <label for="floatingTextarea">Comentarios</label>
-            <textarea class="form-control" placeholder="Deje su comentario aqui" id="floatingTextarea"></textarea>
-          </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                <textarea class="form-control" id="consulta" rows="3"></textarea>
+              </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
             <button type="reset" class="btn btn-primary">Borrar</button>
         </form>
