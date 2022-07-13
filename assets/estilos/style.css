@@ -4,48 +4,8 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-/* Barra Navegacion */
-.nav {display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: center;
-}
-
-.navbar-nav {
-    background: #1D333F;
-    padding: 1rem ;
-        font-family:"Oswald",sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        border-radius: 50px; 
-    }
-
-    .navbar-nav:hover {
-        background: #fff;
-    }
-.navbar-expand-xl{
-    background-color:transparent!important ;
-
-} 
-
- .menu__ambos {
-    width: 23vw;
-    height: 43vw;
-    border-radius: 2rem;
-    transition: width 2s, height 2s;
-    padding: 1rem ;
-}
-
-.menu__ambos:hover {
-    width: 30vw;
-    height: 50vw;
-}
 
 .reserva__letra {font-size: 30px;}
 #fecha { font-size: 20px;}
 #comensales{font-size: 20px;}
 #tel { font-size: 20px;}
-
-.logo__instagram {width: fit-content;
-    align-self: center;
-}
