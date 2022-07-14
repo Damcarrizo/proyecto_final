@@ -1,12 +1,10 @@
 .menu__ambos {
-    width: 23vw;
-    height: 43vw;
+    @include sizes (23vw, 43vw);
     border-radius: $small;
     transition: width 2s, height 2s;
-    padding: 1rem ;
+    padding: $xsmall ;
 }
 
 .menu__ambos:hover {
-    width: 30vw;
-    height: 50vw;
+    @include sizes(30vw, 50vw);
 }

@@ -2,7 +2,6 @@
     text-align: center;
     margin: 0 auto;
      border-radius: 40px;
-     width: 40vw;
-     height: 40vw;
+     @include sizes (40vw, 40vw);
      padding: $xsmall;
  }
