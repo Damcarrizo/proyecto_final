@@ -14,11 +14,15 @@ header{
     flex-direction: row;
     align-items: center;
 }
+
+.nav-item{
+    color: $secondary-background;
+}
     .navbar-expand-xl{
     background-color:transparent!important ;}
 
     .navbar-nav{
-    background: $secondary-background;
+    background: transparent;
     font-family: $fuente-nav;
     padding: $xsmall;
     font-size: 30px;

@@ -1,7 +1,5 @@
-.foto__huerta{
-    text-align: center;
-    margin: 0 auto;
-     border-radius: 40px;
-     @include sizes (40vw, 40vw);
-     padding: $xsmall;
- }
+.carousel-item{
+    border-radius: 40px;    
+    @include sizes (40vw, 40vw);
+    padding: $xsmall;
+}
