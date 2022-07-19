@@ -1,10 +1,14 @@
-.eventos__fotos{
+.card{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: $small;
+    justify-content: center;
+    align-items: center;
+    margin: $small;
+    
+    
 }
-
+.card-img-top{
+    height: 350px;
+}
 
 .card-title{
     font-family: $fuente-nav;

@@ -6,8 +6,8 @@ header{
     .logo {padding: $xsmall;
     }
         .logo__nav{border-radius: 80%;
-            width: 10vw;
-            height: 10vw; }
+            height: 180px;
+        width: 180px; }
 
 
 .nav {display: flex;
@@ -15,7 +15,7 @@ header{
     align-items: center;
 }
 
-.nav-item{
+.nav-link{
     color: $secondary-background;
 }
     .navbar-expand-xl{
