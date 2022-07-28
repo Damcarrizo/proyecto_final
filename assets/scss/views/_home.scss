@@ -13,7 +13,7 @@ body{
     padding: $medium;
     align-items: center;
     border-radius: 70px;
-    @include sizes (50vw, 50vw);
+    @include sizes (100%, auto);
 }
 
 .direccion__index {margin-top: $xsmall;

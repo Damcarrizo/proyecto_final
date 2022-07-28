@@ -1,18 +1,21 @@
-.card{
+.evento-card{
     display: flex;
-    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: $small;
-    
+    padding: $small;
     
 }
-.card-img-top{
-    height: 350px;
+.card{
+    background-color: $secondary-background;
+    
 }
-
 .card-title{
     font-family: $fuente-nav;
+    color: $hover-color
 }
 .card-text{
     font-family: $fuente-secundaria;
+    color: $hover-color
 }

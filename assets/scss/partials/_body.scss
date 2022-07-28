@@ -6,11 +6,17 @@ body{
 
 .titulo { color: $text-color;
     text-shadow: 1px 3px 0 #969696, 1px 13px 5px $secondary-background;
-    font-size: 60px;
+    font-size: 80px;
     font-family:$fuente-secundaria;}
 
 .cantina {
 color: $text-color;
 font-family: $fuente-secundaria;
 font-size: $mediana;
+}
+
+@media screen and (max-width: 600px){
+    .titulo {
+        font-size: 50px;
+    }
 }
