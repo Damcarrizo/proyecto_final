@@ -18,6 +18,11 @@ body{
 
 .direccion__index {margin-top: $xsmall;
     font-family: $fuente-secundaria ;
-    font-weight: 700;   
+    font-weight: 700;
+    font-size: 20px;
+    
+    @media screen and (max-width: 600px){
+    font-size: 10px;
+    }
 }
 }
