@@ -8,3 +8,9 @@
 .menu__ambos:hover {
     @include sizes(30vw, 50vw);
 }
+@media screen and (max-width: 600px){
+    .menu__ambos{
+        transition: remove;
+        @include sizes (80vw,120vw);
+}
+}
